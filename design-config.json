@@ -43,7 +43,7 @@
           "type": "color"
         },
         "900": {
-          "value": "#20232b",
+          "value": "#333640",
           "type": "color"
         },
         "950": {
@@ -542,7 +542,7 @@
         "type": "color"
       },
       "danger": {
-        "value": "{colors.red.600}",
+        "value": "{colors.red.700}",
         "type": "color"
       },
       "warning": {
@@ -683,11 +683,11 @@
           "type": "color"
         },
         "border": {
-          "value": "{border.input}",
+          "value": "{colors.neutral.100}",
           "type": "color"
         },
         "border-hover": {
-          "value": "{border.input}",
+          "value": "{colors.neutral.200}",
           "type": "color"
         },
         "text": {
@@ -768,7 +768,7 @@
         "type": "color"
       },
       "danger": {
-        "value": "{colors.red.500}",
+        "value": "{colors.red.200}",
         "type": "color"
       },
       "warning": {
@@ -794,11 +794,11 @@
     },
     "background": {
       "body": {
-        "value": "{colors.neutral.900}",
+        "value": "{colors.neutral.950}",
         "type": "color"
       },
       "muted": {
-        "value": "{colors.neutral.950}",
+        "value": "{colors.neutral.900}",
         "type": "color"
       },
       "bg-primary": {
@@ -806,7 +806,7 @@
         "type": "color"
       },
       "bg-primary-subtle": {
-        "value": "{colors.blue.950}",
+        "value": "{colors.blue.900}",
         "type": "color"
       },
       "bg-danger": {
@@ -856,7 +856,7 @@
     },
     "border": {
       "primary-subtle": {
-        "value": "{colors.blue.700}",
+        "value": "{colors.blue.600}",
         "type": "color"
       },
       "primary": {
@@ -864,7 +864,7 @@
         "type": "color"
       },
       "danger-subtle": {
-        "value": "{colors.red.800}",
+        "value": "{colors.red.900}",
         "type": "color"
       },
       "separator": {
@@ -872,7 +872,7 @@
         "type": "color"
       },
       "input": {
-        "value": "{colors.neutral.500}",
+        "value": "{colors.neutral.800}",
         "type": "color"
       }
     },
@@ -913,11 +913,11 @@
           "type": "color"
         },
         "border": {
-          "value": "{border.input}",
+          "value": "{colors.neutral.700}",
           "type": "color"
         },
         "border-hover": {
-          "value": "{border.input}",
+          "value": "{colors.neutral.600}",
           "type": "color"
         },
         "text": {
