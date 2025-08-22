@@ -447,7 +447,7 @@
       "type": "number"
     },
     "input-x-gap": {
-      "value": "{spacing.2}",
+      "value": "{spacing.1'5}",
       "type": "number"
     },
     "input-text-size": {
@@ -465,7 +465,7 @@
   },
   "input-sizes/md": {
     "input-size": {
-      "value": "42",
+      "value": 42,
       "type": "number"
     },
     "input-radius": {
@@ -477,7 +477,7 @@
       "type": "number"
     },
     "input-x-gap": {
-      "value": "{spacing.3}",
+      "value": "{spacing.2}",
       "type": "number"
     },
     "input-text-size": {
@@ -507,7 +507,7 @@
       "type": "number"
     },
     "input-x-gap": {
-      "value": "{spacing.4}",
+      "value": "{spacing.3}",
       "type": "number"
     },
     "input-text-size": {
@@ -615,6 +615,82 @@
         "value": "{colors.yellow.200}",
         "type": "color"
       }
+    },
+    "border": {
+      "primary-subtle": {
+        "value": "{colors.blue.300}",
+        "type": "color"
+      },
+      "primary": {
+        "value": "{colors.blue.700}",
+        "type": "color"
+      },
+      "danger-subtle": {
+        "value": "{colors.red.200}",
+        "type": "color"
+      },
+      "separator": {
+        "value": "{colors.neutral.100}",
+        "type": "color"
+      },
+      "input": {
+        "value": "{colors.neutral.200}",
+        "type": "color"
+      }
+    },
+    "button": {
+      "primary": {
+        "bg": {
+          "value": "{background.bg-primary}",
+          "type": "color"
+        },
+        "text": {
+          "value": "{foreground.white-fixed}",
+          "type": "color"
+        },
+        "border": {
+          "value": "{border.primary}",
+          "type": "color"
+        },
+        "border-hover": {
+          "value": "{border.primary}",
+          "type": "color"
+        },
+        "text-hover": {
+          "value": "{foreground.white-fixed}",
+          "type": "color"
+        },
+        "bg-hover": {
+          "value": "{background.bg-primary-ascent}",
+          "type": "color"
+        }
+      },
+      "secondary": {
+        "bg": {
+          "value": "{background.muted}",
+          "type": "color"
+        },
+        "bg-hover": {
+          "value": "{background.extramuted}",
+          "type": "color"
+        },
+        "border": {
+          "value": "{border.input}",
+          "type": "color"
+        },
+        "border-hover": {
+          "value": "{border.input}",
+          "type": "color"
+        },
+        "text": {
+          "value": "{foreground.body}",
+          "type": "color"
+        },
+        "text-hover": {
+          "value": "{foreground.body}",
+          "type": "color"
+        }
+      }
     }
   },
   "theme-colors/dark": {
@@ -708,6 +784,82 @@
       "bg-warning-subtle-ascent": {
         "value": "{colors.yellow.900}",
         "type": "color"
+      }
+    },
+    "border": {
+      "primary-subtle": {
+        "value": "{colors.blue.700}",
+        "type": "color"
+      },
+      "primary": {
+        "value": "{colors.blue.600}",
+        "type": "color"
+      },
+      "danger-subtle": {
+        "value": "{colors.red.800}",
+        "type": "color"
+      },
+      "separator": {
+        "value": "{colors.neutral.700}",
+        "type": "color"
+      },
+      "input": {
+        "value": "{colors.neutral.500}",
+        "type": "color"
+      }
+    },
+    "button": {
+      "primary": {
+        "bg": {
+          "value": "{background.bg-primary}",
+          "type": "color"
+        },
+        "text": {
+          "value": "{foreground.white-fixed}",
+          "type": "color"
+        },
+        "border": {
+          "value": "{border.primary}",
+          "type": "color"
+        },
+        "border-hover": {
+          "value": "{border.primary}",
+          "type": "color"
+        },
+        "text-hover": {
+          "value": "{foreground.white-fixed}",
+          "type": "color"
+        },
+        "bg-hover": {
+          "value": "{background.bg-primary-ascent}",
+          "type": "color"
+        }
+      },
+      "secondary": {
+        "bg": {
+          "value": "{background.muted}",
+          "type": "color"
+        },
+        "bg-hover": {
+          "value": "{background.extramuted}",
+          "type": "color"
+        },
+        "border": {
+          "value": "{border.input}",
+          "type": "color"
+        },
+        "border-hover": {
+          "value": "{border.input}",
+          "type": "color"
+        },
+        "text": {
+          "value": "{foreground.body}",
+          "type": "color"
+        },
+        "text-hover": {
+          "value": "{foreground.body}",
+          "type": "color"
+        }
       }
     }
   },
@@ -930,7 +1082,24 @@
         "background.bg-danger-ascent": "9a3f9bf958010c23b73ddbe5362fa06290d5cbbb",
         "background.bg-danger-subtle-ascent": "bd89a3716c34eaceee626c6675205fc353701d13",
         "background.bg-warning-ascent": "d42168207eba00968993bce63d692f436e7362b0",
-        "background.bg-warning-subtle-ascent": "9b6292683616b614b67e4fdbd84b099189e84896"
+        "background.bg-warning-subtle-ascent": "9b6292683616b614b67e4fdbd84b099189e84896",
+        "border.primary-subtle": "6e5a1ea2afd6906b3ecaa97a99930f41e48f0457",
+        "border.primary": "8fd26d73408c56133c2e62be59e0d7fbb7cbbccf",
+        "border.danger-subtle": "1f458d71f4962ffe849dd12fcd29c85869ace174",
+        "border.separator": "745cb37f8de5e74c7936aafa61d18f6e1c63cf8e",
+        "border.input": "924760fb7fcc95454312c98cb75b1fd5849943ab",
+        "button.primary.bg": "e6acc5c61976a613ae7f5629e115c1822ed48d61",
+        "button.primary.text": "4c2fd747a5960ef3a96178114436045d01f4f31e",
+        "button.primary.border": "4805c27a0694555a0acb65272d57e1810f476e65",
+        "button.primary.border-hover": "e3db0134d282c1acc38b8e041e1ae091984cdfd4",
+        "button.primary.text-hover": "23761ab653ff55d0688a100b244063afc6fe62a4",
+        "button.primary.bg-hover": "d8191d01278e1a3454c60c0fdc7990eee0c4cee6",
+        "button.secondary.bg": "cabad2c11abac4f6f6eafb7b7c101e4387a11e6d",
+        "button.secondary.bg-hover": "37ee739da6c1c03b0674c2695f9facce6b25074d",
+        "button.secondary.border": "33d24fa8de8870825512f460592ccd1f42c74f7f",
+        "button.secondary.border-hover": "f85b2026b0813cac8e540fe711c1de4dc111789e",
+        "button.secondary.text": "9e7545773154902e97a83e81073cdec7bf496275",
+        "button.secondary.text-hover": "a3eb73d4ffeb890f104a5cee3aa62d6f83da003e"
       },
       "$figmaModeId": "14:20",
       "$figmaCollectionId": "VariableCollectionId:14:350"
@@ -965,7 +1134,24 @@
         "background.bg-danger-ascent": "9a3f9bf958010c23b73ddbe5362fa06290d5cbbb",
         "background.bg-danger-subtle-ascent": "bd89a3716c34eaceee626c6675205fc353701d13",
         "background.bg-warning-ascent": "d42168207eba00968993bce63d692f436e7362b0",
-        "background.bg-warning-subtle-ascent": "9b6292683616b614b67e4fdbd84b099189e84896"
+        "background.bg-warning-subtle-ascent": "9b6292683616b614b67e4fdbd84b099189e84896",
+        "border.primary-subtle": "6e5a1ea2afd6906b3ecaa97a99930f41e48f0457",
+        "border.primary": "8fd26d73408c56133c2e62be59e0d7fbb7cbbccf",
+        "border.danger-subtle": "1f458d71f4962ffe849dd12fcd29c85869ace174",
+        "border.separator": "745cb37f8de5e74c7936aafa61d18f6e1c63cf8e",
+        "border.input": "924760fb7fcc95454312c98cb75b1fd5849943ab",
+        "button.primary.bg": "e6acc5c61976a613ae7f5629e115c1822ed48d61",
+        "button.primary.text": "4c2fd747a5960ef3a96178114436045d01f4f31e",
+        "button.primary.border": "4805c27a0694555a0acb65272d57e1810f476e65",
+        "button.primary.border-hover": "e3db0134d282c1acc38b8e041e1ae091984cdfd4",
+        "button.primary.text-hover": "23761ab653ff55d0688a100b244063afc6fe62a4",
+        "button.primary.bg-hover": "d8191d01278e1a3454c60c0fdc7990eee0c4cee6",
+        "button.secondary.bg": "cabad2c11abac4f6f6eafb7b7c101e4387a11e6d",
+        "button.secondary.bg-hover": "37ee739da6c1c03b0674c2695f9facce6b25074d",
+        "button.secondary.border": "33d24fa8de8870825512f460592ccd1f42c74f7f",
+        "button.secondary.border-hover": "f85b2026b0813cac8e540fe711c1de4dc111789e",
+        "button.secondary.text": "9e7545773154902e97a83e81073cdec7bf496275",
+        "button.secondary.text-hover": "a3eb73d4ffeb890f104a5cee3aa62d6f83da003e"
       },
       "$figmaModeId": "14:21",
       "$figmaCollectionId": "VariableCollectionId:14:350"
