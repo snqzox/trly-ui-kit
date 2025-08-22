@@ -309,32 +309,32 @@
       }
     },
     "radius": {
-      "sm": {
+      "1": {
         "value": 4,
         "type": "number"
       },
-      "lg": {
-        "value": 12,
-        "type": "number"
-      },
-      "xl": {
-        "value": 20,
-        "type": "number"
-      },
-      "2xl": {
-        "value": 32,
-        "type": "number"
-      },
-      "md": {
+      "2": {
         "value": 8,
         "type": "number"
       },
-      "xs": {
-        "value": 2,
+      "3": {
+        "value": 12,
+        "type": "number"
+      },
+      "5": {
+        "value": 20,
+        "type": "number"
+      },
+      "8": {
+        "value": 32,
         "type": "number"
       },
       "none": {
         "value": 0,
+        "type": "number"
+      },
+      "0'5": {
+        "value": 2,
         "type": "number"
       },
       "full": {
@@ -409,7 +409,7 @@
       "type": "number"
     },
     "input-radius": {
-      "value": "{radius.xs}",
+      "value": "{radius.0'5}",
       "type": "number"
     },
     "input-x-padding": {
@@ -427,6 +427,10 @@
     "input-line-height": {
       "value": "{line-height.xs}",
       "type": "number"
+    },
+    "input-icon-size": {
+      "value": 16,
+      "type": "number"
     }
   },
   "input/sm": {
@@ -435,7 +439,7 @@
       "type": "number"
     },
     "input-radius": {
-      "value": "{radius.sm}",
+      "value": "{radius.1}",
       "type": "number"
     },
     "input-x-padding": {
@@ -453,6 +457,10 @@
     "input-line-height": {
       "value": "{line-height.sm}",
       "type": "number"
+    },
+    "input-icon-size": {
+      "value": 18,
+      "type": "number"
     }
   },
   "input/md": {
@@ -461,7 +469,7 @@
       "type": "number"
     },
     "input-radius": {
-      "value": "{radius.md}",
+      "value": "{radius.2}",
       "type": "number"
     },
     "input-x-padding": {
@@ -479,6 +487,10 @@
     "input-line-height": {
       "value": "{line-height.md}",
       "type": "number"
+    },
+    "input-icon-size": {
+      "value": 20,
+      "type": "number"
     }
   },
   "input/lg": {
@@ -487,7 +499,7 @@
       "type": "number"
     },
     "input-radius": {
-      "value": "{radius.lg}",
+      "value": "{radius.3}",
       "type": "number"
     },
     "input-x-padding": {
@@ -504,6 +516,10 @@
     },
     "input-line-height": {
       "value": "{line-height.lg}",
+      "type": "number"
+    },
+    "input-icon-size": {
+      "value": 24,
       "type": "number"
     }
   },
@@ -531,6 +547,10 @@
       },
       "warning": {
         "value": "{colors.yellow.600}",
+        "type": "color"
+      },
+      "white-fixed": {
+        "value": "{colors.white.100%}",
         "type": "color"
       }
     },
@@ -597,6 +617,10 @@
       },
       "body": {
         "value": "{colors.neutral.50}",
+        "type": "color"
+      },
+      "white-fixed": {
+        "value": "{colors.white.100%}",
         "type": "color"
       }
     },
@@ -721,13 +745,6 @@
         "spacing.1'5": "ffe1784ea921856f966936b33793156a31562ad9",
         "spacing.2'5": "904b2b92225a4ecb125b41e5825601dc5a291af5",
         "spacing.3'5": "3d414a8bd42210c7f29a0ea9b93727b9a54fa208",
-        "radius.sm": "609fa5d0639d70f1d7e35e9b96ce5f246da53fab",
-        "radius.lg": "9cae72568636f158484370df7e516e51dcfdab77",
-        "radius.xl": "ccfce46f2acf4aeea610889017af46d9857c939e",
-        "radius.2xl": "db1b1298c6b89e51548a813e12ea1580c75d2f86",
-        "radius.md": "c233b8a283d1e81eb71fd5398ac13c6bff1db007",
-        "radius.xs": "8b783baa0f7eea09cdf9947e4f4eb6324fed404a",
-        "radius.none": "19669dd471d85b289a80e89731d5562462ce3973",
         "radius.full": "9512c87c7a32b20232a47ccdf059b9a105e69ab8",
         "font-size.3xs": "191a8c11b11988dd7655331b2aa02465f277000d",
         "font-size.2xs": "1d95a541af21d3bda84b933f3ee4a9ad2c992a93",
@@ -743,7 +760,14 @@
         "line-height.md": "c4e67129630afcd71c4d4ff188c8cb70fb330b66",
         "line-height.lg": "5b696954125ce6b9561ff981a4213b4ddd23cba4",
         "line-height.xl": "5a281b31c4798338c35cedb138432390b1e176bd",
-        "spacing.0": "93574a46e1c6002df60b58355a6b2e3b17926e3e"
+        "spacing.0": "93574a46e1c6002df60b58355a6b2e3b17926e3e",
+        "radius.1": "609fa5d0639d70f1d7e35e9b96ce5f246da53fab",
+        "radius.3": "9cae72568636f158484370df7e516e51dcfdab77",
+        "radius.5": "ccfce46f2acf4aeea610889017af46d9857c939e",
+        "radius.none": "19669dd471d85b289a80e89731d5562462ce3973",
+        "radius.8": "db1b1298c6b89e51548a813e12ea1580c75d2f86",
+        "radius.0'5": "8b783baa0f7eea09cdf9947e4f4eb6324fed404a",
+        "radius.2": "c233b8a283d1e81eb71fd5398ac13c6bff1db007"
       },
       "$figmaModeId": "14:19",
       "$figmaCollectionId": "VariableCollectionId:14:349"
@@ -762,7 +786,8 @@
         "input-x-padding": "619b24dbfc228bad14a6b4bd97146bc98daa6183",
         "input-x-gap": "46b7586567bc301884c53b5f374dd34f47818b7f",
         "input-text-size": "430fb4f6850e2c31ac325a4e6bf7913a743e1384",
-        "input-line-height": "1025efbe02355ae8a5158e32fe7a7e53b9e68b04"
+        "input-line-height": "1025efbe02355ae8a5158e32fe7a7e53b9e68b04",
+        "input-icon-size": "0e15ef7e9b3fd7b72ba3bd28991de050d7e45768"
       },
       "$figmaModeId": "14:22",
       "$figmaCollectionId": "VariableCollectionId:14:351"
@@ -781,7 +806,8 @@
         "input-x-padding": "619b24dbfc228bad14a6b4bd97146bc98daa6183",
         "input-x-gap": "46b7586567bc301884c53b5f374dd34f47818b7f",
         "input-text-size": "430fb4f6850e2c31ac325a4e6bf7913a743e1384",
-        "input-line-height": "1025efbe02355ae8a5158e32fe7a7e53b9e68b04"
+        "input-line-height": "1025efbe02355ae8a5158e32fe7a7e53b9e68b04",
+        "input-icon-size": "0e15ef7e9b3fd7b72ba3bd28991de050d7e45768"
       },
       "$figmaModeId": "14:23",
       "$figmaCollectionId": "VariableCollectionId:14:351"
@@ -800,7 +826,8 @@
         "input-x-padding": "619b24dbfc228bad14a6b4bd97146bc98daa6183",
         "input-x-gap": "46b7586567bc301884c53b5f374dd34f47818b7f",
         "input-text-size": "430fb4f6850e2c31ac325a4e6bf7913a743e1384",
-        "input-line-height": "1025efbe02355ae8a5158e32fe7a7e53b9e68b04"
+        "input-line-height": "1025efbe02355ae8a5158e32fe7a7e53b9e68b04",
+        "input-icon-size": "0e15ef7e9b3fd7b72ba3bd28991de050d7e45768"
       },
       "$figmaModeId": "14:24",
       "$figmaCollectionId": "VariableCollectionId:14:351"
@@ -819,7 +846,8 @@
         "input-x-padding": "619b24dbfc228bad14a6b4bd97146bc98daa6183",
         "input-x-gap": "46b7586567bc301884c53b5f374dd34f47818b7f",
         "input-text-size": "430fb4f6850e2c31ac325a4e6bf7913a743e1384",
-        "input-line-height": "1025efbe02355ae8a5158e32fe7a7e53b9e68b04"
+        "input-line-height": "1025efbe02355ae8a5158e32fe7a7e53b9e68b04",
+        "input-icon-size": "0e15ef7e9b3fd7b72ba3bd28991de050d7e45768"
       },
       "$figmaModeId": "14:25",
       "$figmaCollectionId": "VariableCollectionId:14:351"
@@ -847,7 +875,8 @@
         "text.warning": "b4ccd7795144a57f7d91749b3328675a607f46f6",
         "background.bg-warning": "de374dea0695a9f53fbc6e2556566e7e44dcf37c",
         "background.bg-warning-subtle": "4ef218c3e5b50192a2603fdeb03391b979c04d34",
-        "text.body": "47730cea41f928e8b93e0f0a4c4630f1f01a5cb0"
+        "text.body": "47730cea41f928e8b93e0f0a4c4630f1f01a5cb0",
+        "text.white-fixed": "1a1b0e08b77106d260bdb74d7fbf01c15fc3cc44"
       },
       "$figmaModeId": "14:20",
       "$figmaCollectionId": "VariableCollectionId:14:350"
@@ -875,7 +904,8 @@
         "background.extramuted": "82bb46233b5df52dfa524f6c48b7149e3f52bb82",
         "text.warning": "b4ccd7795144a57f7d91749b3328675a607f46f6",
         "background.bg-warning": "de374dea0695a9f53fbc6e2556566e7e44dcf37c",
-        "background.bg-warning-subtle": "4ef218c3e5b50192a2603fdeb03391b979c04d34"
+        "background.bg-warning-subtle": "4ef218c3e5b50192a2603fdeb03391b979c04d34",
+        "text.white-fixed": "1a1b0e08b77106d260bdb74d7fbf01c15fc3cc44"
       },
       "$figmaModeId": "14:21",
       "$figmaCollectionId": "VariableCollectionId:14:350"
