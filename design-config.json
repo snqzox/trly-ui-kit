@@ -202,153 +202,153 @@
     },
     "spacing": {
       "1": {
-        "value": 4,
+        "value": "4",
         "type": "number"
       },
       "2": {
-        "value": 8,
+        "value": "8",
         "type": "number"
       },
       "3": {
-        "value": 12,
+        "value": "12",
         "type": "number"
       },
       "4": {
-        "value": 16,
+        "value": "16",
         "type": "number"
       },
       "5": {
-        "value": 20,
+        "value": "20",
         "type": "number"
       },
       "6": {
-        "value": 24,
+        "value": "24",
         "type": "number"
       },
       "8": {
-        "value": 32,
+        "value": "32",
         "type": "number"
       },
       "10": {
-        "value": 40,
+        "value": "40",
         "type": "number"
       },
       "13": {
-        "value": 52,
+        "value": "52",
         "type": "number"
       },
       "16": {
-        "value": 64,
+        "value": "64",
         "type": "number"
       },
       "0'5": {
-        "value": 2,
+        "value": "2",
         "type": "number"
       },
       "1'5": {
-        "value": 6,
+        "value": "6",
         "type": "number"
       },
       "2'5": {
-        "value": 10,
+        "value": "10",
         "type": "number"
       },
       "3'5": {
-        "value": 14,
+        "value": "14",
         "type": "number"
       }
     },
     "radius": {
       "sm": {
-        "value": 4,
+        "value": "4",
         "type": "number"
       },
       "lg": {
-        "value": 12,
+        "value": "12",
         "type": "number"
       },
       "xl": {
-        "value": 20,
+        "value": "20",
         "type": "number"
       },
       "2xl": {
-        "value": 32,
+        "value": "32",
         "type": "number"
       },
       "md": {
-        "value": 8,
+        "value": "8",
         "type": "number"
       },
       "xs": {
-        "value": 2,
+        "value": "2",
         "type": "number"
       },
       "none": {
-        "value": 0,
+        "value": "0",
         "type": "number"
       },
       "full": {
-        "value": 999,
+        "value": "999",
         "type": "number"
       }
     },
     "font-size": {
       "3xs": {
-        "value": 10,
+        "value": "10",
         "type": "number"
       },
       "2xs": {
-        "value": 11,
+        "value": "11",
         "type": "number"
       },
       "xs": {
-        "value": 12,
+        "value": "12",
         "type": "number"
       },
       "sm": {
-        "value": 13,
+        "value": "13",
         "type": "number"
       },
       "md": {
-        "value": 14,
+        "value": "14",
         "type": "number"
       },
       "lg": {
-        "value": 16,
+        "value": "16",
         "type": "number"
       },
       "xl": {
-        "value": 20,
+        "value": "20",
         "type": "number"
       }
     },
     "line-height": {
       "3xs": {
-        "value": 14,
+        "value": "14",
         "type": "number"
       },
       "2xs": {
-        "value": 15,
+        "value": "15",
         "type": "number"
       },
       "xs": {
-        "value": 16,
+        "value": "16",
         "type": "number"
       },
       "sm": {
-        "value": 18,
+        "value": "18",
         "type": "number"
       },
       "md": {
-        "value": 20,
+        "value": "20",
         "type": "number"
       },
       "lg": {
-        "value": 24,
+        "value": "24",
         "type": "number"
       },
       "xl": {
-        "value": 26,
+        "value": "26",
         "type": "number"
       }
     }
@@ -370,10 +370,14 @@
       "primary": {
         "value": "{colors.blue.600}",
         "type": "color"
+      },
+      "danger": {
+        "value": "{colors.red.600}",
+        "type": "color"
       }
     },
     "background": {
-      "default": {
+      "body": {
         "value": "{colors.neutral.0}",
         "type": "color"
       },
@@ -396,6 +400,10 @@
       "bg-danger-subtle": {
         "value": "{colors.red.100}",
         "type": "color"
+      },
+      "extramuted": {
+        "value": "{colors.neutral.100}",
+        "type": "color"
       }
     }
   },
@@ -415,6 +423,10 @@
       },
       "primary": {
         "value": "{colors.blue.500}",
+        "type": "color"
+      },
+      "danger": {
+        "value": "{colors.red.500}",
         "type": "color"
       }
     },
@@ -442,12 +454,16 @@
       "bg-danger-subtle": {
         "value": "{colors.red.950}",
         "type": "color"
+      },
+      "extramuted": {
+        "value": "{colors.neutral.800}",
+        "type": "color"
       }
     }
   },
   "input/xs": {
     "input-size": {
-      "value": 26,
+      "value": "26",
       "type": "number"
     },
     "input-radius": {
@@ -473,7 +489,7 @@
   },
   "input/sm": {
     "input-size": {
-      "value": 34,
+      "value": "34",
       "type": "number"
     },
     "input-radius": {
@@ -499,7 +515,7 @@
   },
   "input/md": {
     "input-size": {
-      "value": 42,
+      "value": "42",
       "type": "number"
     },
     "input-radius": {
@@ -525,7 +541,7 @@
   },
   "input/lg": {
     "input-size": {
-      "value": 48,
+      "value": "48",
       "type": "number"
     },
     "input-radius": {
@@ -582,6 +598,17 @@
         "colors.blue.800": "d5d4e3c5a8c7f8a69b7e513c7aa9de3b1365f937",
         "colors.blue.900": "31afd785fb108b5e623684855da0401509794e32",
         "colors.blue.950": "b7bb370ec3c4e3f127ec263bb84ed9cc80b6395f",
+        "colors.red.50": "c21e37e12221ba4b0a96cf728846ca1590f11bd5",
+        "colors.red.100": "0b8ce51115217a8daff14f1eac95c42ecac2e987",
+        "colors.red.200": "c344d42711d6cddd3ee6f18cbae44f050544788c",
+        "colors.red.300": "57fe734b96bfc1462a1812f4101c2b175f80314b",
+        "colors.red.400": "02427e275ea195474996242ef47ff9840070a341",
+        "colors.red.500": "608821b5276e2f0b73592e04f9cecc90ecb1d0aa",
+        "colors.red.600": "e879f8e64d19821d5ad5ba28790c96a607613a7b",
+        "colors.red.700": "61e1dca0f3c5de566eacae7afec98d92cf704edd",
+        "colors.red.800": "e5dbd6622e557ef94add1f24a5cf363f2857ecda",
+        "colors.red.900": "f47c1f8eb45de7e75fcd27e652103bdca612a80a",
+        "colors.red.950": "bcf88536cad2c49f11b1b7fa10172bdd384a3014",
         "colors.white.100%": "c503d2597630c40d15b3855bca3eabeac5a70ec8",
         "colors.white.90%": "0e93ea10b4b54627e291bd1f9ea8fabf722b23b9",
         "colors.white.80%": "6711a374f09c5747ff6538e8a92f026a4df55790",
@@ -648,10 +675,14 @@
         "text.muted": "5e86ae0c244380be4bb9e7598f03c7a93320ffaa",
         "text.extramuted": "b35ec277cc3aafb0a65e1ec5728ebd2070bd3213",
         "text.primary": "f0b0225ce966c6dea7e60a153f2dbb0e51c267e8",
-        "background.default": "358e062d1db36ea325edf15365431c550c784722",
         "background.muted": "b6505975efb4368a95b39bc1865a4b8d2e9f960c",
         "background.bg-primary": "2e45297dd7cc601e151d062a93439d991f15f1a6",
-        "background.bg-primary-subtle": "83376db791ed1235700a7907b98651abe799b55f"
+        "background.bg-primary-subtle": "83376db791ed1235700a7907b98651abe799b55f",
+        "background.bg-danger": "7b33ba023ea5ce9c6b65bbabf0b7289c8f7d45e6",
+        "background.bg-danger-subtle": "e9d4f5b40239367a4d1642157c80ce0ef41a6ee7",
+        "text.danger": "7d745c84e7c5a3bb8c86c27c4894a39a46fbd221",
+        "background.extramuted": "82bb46233b5df52dfa524f6c48b7149e3f52bb82",
+        "background.body": "358e062d1db36ea325edf15365431c550c784722"
       },
       "$figmaModeId": "14:20",
       "$figmaCollectionId": "VariableCollectionId:14:350"
@@ -669,10 +700,14 @@
         "text.muted": "5e86ae0c244380be4bb9e7598f03c7a93320ffaa",
         "text.extramuted": "b35ec277cc3aafb0a65e1ec5728ebd2070bd3213",
         "text.primary": "f0b0225ce966c6dea7e60a153f2dbb0e51c267e8",
-        "background.default": "358e062d1db36ea325edf15365431c550c784722",
         "background.muted": "b6505975efb4368a95b39bc1865a4b8d2e9f960c",
         "background.bg-primary": "2e45297dd7cc601e151d062a93439d991f15f1a6",
-        "background.bg-primary-subtle": "83376db791ed1235700a7907b98651abe799b55f"
+        "background.bg-primary-subtle": "83376db791ed1235700a7907b98651abe799b55f",
+        "background.bg-danger": "7b33ba023ea5ce9c6b65bbabf0b7289c8f7d45e6",
+        "background.bg-danger-subtle": "e9d4f5b40239367a4d1642157c80ce0ef41a6ee7",
+        "text.danger": "7d745c84e7c5a3bb8c86c27c4894a39a46fbd221",
+        "background.extramuted": "82bb46233b5df52dfa524f6c48b7149e3f52bb82",
+        "background.default": "2f12c18423f7cf5b3a7c049a40451c729ede147b"
       },
       "$figmaModeId": "14:21",
       "$figmaCollectionId": "VariableCollectionId:14:350"
