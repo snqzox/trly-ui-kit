@@ -73,6 +73,34 @@
         "80%": {
           "$type": "color",
           "$value": "#ffffffcc"
+        },
+        "70%": {
+          "$type": "color",
+          "$value": "#ffffffb3"
+        },
+        "60%": {
+          "$type": "color",
+          "$value": "#ffffff99"
+        },
+        "50%": {
+          "$type": "color",
+          "$value": "#ffffff80"
+        },
+        "40%": {
+          "$type": "color",
+          "$value": "#ffffff66"
+        },
+        "30%": {
+          "$type": "color",
+          "$value": "#ffffff4d"
+        },
+        "20%": {
+          "$type": "color",
+          "$value": "#ffffff33"
+        },
+        "10%": {
+          "$type": "color",
+          "$value": "#ffffff1a"
         }
       }
     },
