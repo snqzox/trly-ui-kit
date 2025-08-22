@@ -724,6 +724,32 @@
           "value": "{foreground.primary-ascent}",
           "type": "color"
         }
+      },
+      "danger": {
+        "bg": {
+          "value": "{background.bg-danger-subtle}",
+          "type": "color"
+        },
+        "bg-hover": {
+          "value": "{background.bg-danger-subtle-ascent}",
+          "type": "color"
+        },
+        "border": {
+          "value": "{border.danger-subtle}",
+          "type": "color"
+        },
+        "border-hover": {
+          "value": "{border.danger-subtle}",
+          "type": "color"
+        },
+        "text": {
+          "value": "{foreground.danger}",
+          "type": "color"
+        },
+        "text-hover": {
+          "value": "{foreground.danger}",
+          "type": "color"
+        }
       }
     }
   },
@@ -926,6 +952,32 @@
         },
         "text-hover": {
           "value": "{colors.blue.100}",
+          "type": "color"
+        }
+      },
+      "danger": {
+        "bg": {
+          "value": "{background.bg-danger-subtle}",
+          "type": "color"
+        },
+        "bg-hover": {
+          "value": "{background.bg-danger-subtle-ascent}",
+          "type": "color"
+        },
+        "border": {
+          "value": "{border.danger-subtle}",
+          "type": "color"
+        },
+        "border-hover": {
+          "value": "{border.danger-subtle}",
+          "type": "color"
+        },
+        "text": {
+          "value": "{foreground.danger}",
+          "type": "color"
+        },
+        "text-hover": {
+          "value": "{foreground.danger}",
           "type": "color"
         }
       }
@@ -1175,7 +1227,13 @@
         "button.primary-subtle.text": "2506c0aa1df6c769de967963255f197fecf60cac",
         "button.primary-subtle.text-hover": "9b3d8d484d7961fa6274894b7ac3089a2ec38914",
         "foreground.primary-ascent": "3ce00d02a31d8aa2b1bda053a9c007796f3cb723",
-        "foreground.primary-subtle": "0115400cb600d15f85330c2ba3f31383888a242e"
+        "foreground.primary-subtle": "0115400cb600d15f85330c2ba3f31383888a242e",
+        "button.danger.bg": "9682bc1f6dee580b278b68b5f4a3506d5d665dae",
+        "button.danger.bg-hover": "c3660d4bc1af26dfc0ba67843d691a5ad220f70c",
+        "button.danger.border": "aef64d0e557179ef9f317eb9d9957883ad80d5f1",
+        "button.danger.border-hover": "5bd9c7ca682f2ef33c8870ba24a695bf4980f1a0",
+        "button.danger.text": "a64a0378b9cb9c670c8c3dd23f09641f7c8fea3e",
+        "button.danger.text-hover": "bd596578b6420921f694fa39067f155e7fefd464"
       },
       "$figmaModeId": "14:20",
       "$figmaCollectionId": "VariableCollectionId:14:350"
@@ -1235,7 +1293,13 @@
         "button.primary-subtle.text": "2506c0aa1df6c769de967963255f197fecf60cac",
         "button.primary-subtle.text-hover": "9b3d8d484d7961fa6274894b7ac3089a2ec38914",
         "foreground.primary-ascent": "3ce00d02a31d8aa2b1bda053a9c007796f3cb723",
-        "foreground.primary-subtle": "0115400cb600d15f85330c2ba3f31383888a242e"
+        "foreground.primary-subtle": "0115400cb600d15f85330c2ba3f31383888a242e",
+        "button.danger.bg": "9682bc1f6dee580b278b68b5f4a3506d5d665dae",
+        "button.danger.bg-hover": "c3660d4bc1af26dfc0ba67843d691a5ad220f70c",
+        "button.danger.border": "aef64d0e557179ef9f317eb9d9957883ad80d5f1",
+        "button.danger.border-hover": "5bd9c7ca682f2ef33c8870ba24a695bf4980f1a0",
+        "button.danger.text": "a64a0378b9cb9c670c8c3dd23f09641f7c8fea3e",
+        "button.danger.text-hover": "bd596578b6420921f694fa39067f155e7fefd464"
       },
       "$figmaModeId": "14:21",
       "$figmaCollectionId": "VariableCollectionId:14:350"
