@@ -79,7 +79,7 @@
     "spacing": {
       "2": {
         "$type": "number",
-        "$value": 811
+        "$value": 8
       },
       "2'5": {
         "$type": "number",
