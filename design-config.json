@@ -552,6 +552,14 @@
       "white-fixed": {
         "value": "{colors.white.100%}",
         "type": "color"
+      },
+      "primary-ascent": {
+        "value": "{colors.blue.800}",
+        "type": "color"
+      },
+      "primary-subtle": {
+        "value": "{colors.blue.600}",
+        "type": "color"
       }
     },
     "background": {
@@ -690,6 +698,32 @@
           "value": "{foreground.body}",
           "type": "color"
         }
+      },
+      "primary-subtle": {
+        "bg": {
+          "value": "{background.bg-primary-subtle}",
+          "type": "color"
+        },
+        "bg-hover": {
+          "value": "{background.bg-primary-subtle-ascent}",
+          "type": "color"
+        },
+        "border": {
+          "value": "{border.primary-subtle}",
+          "type": "color"
+        },
+        "border-hover": {
+          "value": "{border.primary-subtle}",
+          "type": "color"
+        },
+        "text": {
+          "value": "{foreground.primary}",
+          "type": "color"
+        },
+        "text-hover": {
+          "value": "{foreground.primary-ascent}",
+          "type": "color"
+        }
       }
     }
   },
@@ -721,6 +755,14 @@
       },
       "white-fixed": {
         "value": "{colors.white.100%}",
+        "type": "color"
+      },
+      "primary-ascent": {
+        "value": "{colors.blue.300}",
+        "type": "color"
+      },
+      "primary-subtle": {
+        "value": "{colors.blue.500}",
         "type": "color"
       }
     },
@@ -858,6 +900,32 @@
         },
         "text-hover": {
           "value": "{foreground.body}",
+          "type": "color"
+        }
+      },
+      "primary-subtle": {
+        "bg": {
+          "value": "{background.bg-primary-subtle}",
+          "type": "color"
+        },
+        "bg-hover": {
+          "value": "{background.bg-primary-subtle-ascent}",
+          "type": "color"
+        },
+        "border": {
+          "value": "{border.primary-subtle}",
+          "type": "color"
+        },
+        "border-hover": {
+          "value": "{border.primary-subtle}",
+          "type": "color"
+        },
+        "text": {
+          "value": "{colors.blue.50}",
+          "type": "color"
+        },
+        "text-hover": {
+          "value": "{colors.blue.100}",
           "type": "color"
         }
       }
@@ -1099,7 +1167,15 @@
         "button.secondary.border": "33d24fa8de8870825512f460592ccd1f42c74f7f",
         "button.secondary.border-hover": "f85b2026b0813cac8e540fe711c1de4dc111789e",
         "button.secondary.text": "9e7545773154902e97a83e81073cdec7bf496275",
-        "button.secondary.text-hover": "a3eb73d4ffeb890f104a5cee3aa62d6f83da003e"
+        "button.secondary.text-hover": "a3eb73d4ffeb890f104a5cee3aa62d6f83da003e",
+        "button.primary-subtle.bg": "464c8b0bf19cd75b8bf8eeae2a68a0e78bf68a9f",
+        "button.primary-subtle.bg-hover": "bad56dbb055357fc70467ebe2a12aedc1618c6c2",
+        "button.primary-subtle.border": "d8cf4f613bc3aa2f3c611682ee1ad9d61c65936c",
+        "button.primary-subtle.border-hover": "c6828332da0c2b3e6fd759df7f6178a9b42f53fe",
+        "button.primary-subtle.text": "2506c0aa1df6c769de967963255f197fecf60cac",
+        "button.primary-subtle.text-hover": "9b3d8d484d7961fa6274894b7ac3089a2ec38914",
+        "foreground.primary-ascent": "3ce00d02a31d8aa2b1bda053a9c007796f3cb723",
+        "foreground.primary-subtle": "0115400cb600d15f85330c2ba3f31383888a242e"
       },
       "$figmaModeId": "14:20",
       "$figmaCollectionId": "VariableCollectionId:14:350"
@@ -1151,7 +1227,15 @@
         "button.secondary.border": "33d24fa8de8870825512f460592ccd1f42c74f7f",
         "button.secondary.border-hover": "f85b2026b0813cac8e540fe711c1de4dc111789e",
         "button.secondary.text": "9e7545773154902e97a83e81073cdec7bf496275",
-        "button.secondary.text-hover": "a3eb73d4ffeb890f104a5cee3aa62d6f83da003e"
+        "button.secondary.text-hover": "a3eb73d4ffeb890f104a5cee3aa62d6f83da003e",
+        "button.primary-subtle.bg": "464c8b0bf19cd75b8bf8eeae2a68a0e78bf68a9f",
+        "button.primary-subtle.bg-hover": "bad56dbb055357fc70467ebe2a12aedc1618c6c2",
+        "button.primary-subtle.border": "d8cf4f613bc3aa2f3c611682ee1ad9d61c65936c",
+        "button.primary-subtle.border-hover": "c6828332da0c2b3e6fd759df7f6178a9b42f53fe",
+        "button.primary-subtle.text": "2506c0aa1df6c769de967963255f197fecf60cac",
+        "button.primary-subtle.text-hover": "9b3d8d484d7961fa6274894b7ac3089a2ec38914",
+        "foreground.primary-ascent": "3ce00d02a31d8aa2b1bda053a9c007796f3cb723",
+        "foreground.primary-subtle": "0115400cb600d15f85330c2ba3f31383888a242e"
       },
       "$figmaModeId": "14:21",
       "$figmaCollectionId": "VariableCollectionId:14:350"
