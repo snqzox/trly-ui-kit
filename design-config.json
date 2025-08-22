@@ -340,7 +340,15 @@
         "type": "color"
       },
       "bg-primary-subtle": {
+        "value": "{colors.blue.100}",
+        "type": "color"
+      },
+      "bg-danger": {
         "value": "{colors.blue.600}",
+        "type": "color"
+      },
+      "bg-danger-subtle": {
+        "value": "{colors.blue.100}",
         "type": "color"
       }
     }
@@ -378,7 +386,15 @@
         "type": "color"
       },
       "bg-primary-subtle": {
+        "value": "{colors.blue.950}",
+        "type": "color"
+      },
+      "bg-danger": {
         "value": "{colors.blue.500}",
+        "type": "color"
+      },
+      "bg-danger-subtle": {
+        "value": "{colors.blue.950}",
         "type": "color"
       }
     }
