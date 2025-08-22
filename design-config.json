@@ -143,6 +143,52 @@
           "type": "color"
         }
       },
+      "yellow": {
+        "50": {
+          "value": "#fefce8",
+          "type": "color"
+        },
+        "100": {
+          "value": "#fef9c3",
+          "type": "color"
+        },
+        "200": {
+          "value": "#fef08a",
+          "type": "color"
+        },
+        "300": {
+          "value": "#fde047",
+          "type": "color"
+        },
+        "400": {
+          "value": "#facc15",
+          "type": "color"
+        },
+        "500": {
+          "value": "#eab308",
+          "type": "color"
+        },
+        "600": {
+          "value": "#ca8a04",
+          "type": "color"
+        },
+        "700": {
+          "value": "#a16207",
+          "type": "color"
+        },
+        "800": {
+          "value": "#854d0e",
+          "type": "color"
+        },
+        "900": {
+          "value": "#713f12",
+          "type": "color"
+        },
+        "950": {
+          "value": "#422006",
+          "type": "color"
+        }
+      },
       "white": {
         "100%": {
           "value": "#ffffff",
@@ -374,6 +420,10 @@
       "danger": {
         "value": "{colors.red.600}",
         "type": "color"
+      },
+      "warning": {
+        "value": "{colors.yellow.600}",
+        "type": "color"
       }
     },
     "background": {
@@ -399,6 +449,14 @@
       },
       "bg-danger-subtle": {
         "value": "{colors.red.100}",
+        "type": "color"
+      },
+      "bg-warning": {
+        "value": "{colors.yellow.600}",
+        "type": "color"
+      },
+      "bg-warning-subtle": {
+        "value": "{colors.yellow.100}",
         "type": "color"
       },
       "extramuted": {
@@ -428,6 +486,10 @@
       "danger": {
         "value": "{colors.red.500}",
         "type": "color"
+      },
+      "warning": {
+        "value": "{colors.yellow.400}",
+        "type": "color"
       }
     },
     "background": {
@@ -453,6 +515,14 @@
       },
       "bg-danger-subtle": {
         "value": "{colors.red.950}",
+        "type": "color"
+      },
+      "bg-warning": {
+        "value": "{colors.yellow.500}",
+        "type": "color"
+      },
+      "bg-warning-subtle": {
+        "value": "{colors.yellow.950}",
         "type": "color"
       },
       "extramuted": {
