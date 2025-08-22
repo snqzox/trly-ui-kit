@@ -101,6 +101,10 @@
         "10%": {
           "$type": "color",
           "$value": "#ffffff1a"
+        },
+        "0%": {
+          "$type": "color",
+          "$value": "#ffffff00"
         }
       }
     },
@@ -109,17 +113,9 @@
         "$type": "number",
         "$value": 8
       },
-      "2'5": {
-        "$type": "number",
-        "$value": 10
-      },
       "3": {
         "$type": "number",
         "$value": 12
-      },
-      "3'5": {
-        "$type": "number",
-        "$value": 14
       },
       "4": {
         "$type": "number",
@@ -128,6 +124,14 @@
       "5": {
         "$type": "number",
         "$value": 20
+      },
+      "2'5": {
+        "$type": "number",
+        "$value": 10
+      },
+      "3'5": {
+        "$type": "number",
+        "$value": 14
       }
     }
   },
@@ -209,29 +213,36 @@
       },
       "$figmaStyleReferences": {},
       "$figmaVariableReferences": {
+        "colors.neutral.0": "3bf4672423b777723bf82832c35ce73b82027ab4",
         "colors.neutral.50": "95191007693baf817f5dcf4167c8c64fcaec408f",
         "colors.neutral.100": "4ae91906c7b6d1931af8a73145846c6e961725ae",
+        "colors.neutral.200": "e81d8d71732a87793a3b255bdf5340db6f2171ca",
+        "colors.neutral.300": "882d72d36fe40ddb53d44f2e2916c55d96cff3a8",
+        "colors.neutral.400": "eb0000562607f610fb333374ac5ffc6c788bed3b",
+        "colors.neutral.500": "aa55079bc1a55ab9d855c76ef57c305c7395fc9b",
+        "colors.neutral.600": "e5cc56df97e43544d23cc33b63096ebde27da428",
+        "colors.neutral.700": "885cc1b416c99664794a294389ad8f6d0ec63dfc",
+        "colors.neutral.800": "6708685c786201389173cf7ac5c63a70bdd316a4",
+        "colors.neutral.900": "d77c138e1a023131b624fab37ac665e4f4160b0b",
         "colors.neutral.950": "ac96e686e810cdcc8e0b48c96818e00dc965b392",
+        "colors.blue.500": "fe46b33a46715635ff251d533e4103daf901e0c4",
         "colors.blue.600": "80ae96db333c7f244caa1bd93c40fc1888182d9f",
         "colors.white.100%": "d4423c35408909efcd77be53acdc6298fb543ec4",
         "colors.white.90%": "3089492da0b80d334883daf37073a05efd7f3734",
         "colors.white.80%": "60cc16048f6215d6fb8cb456cd00171092deadab",
-        "colors.neutral.900": "d77c138e1a023131b624fab37ac665e4f4160b0b",
-        "colors.neutral.800": "6708685c786201389173cf7ac5c63a70bdd316a4",
-        "colors.neutral.600": "e5cc56df97e43544d23cc33b63096ebde27da428",
-        "colors.neutral.400": "eb0000562607f610fb333374ac5ffc6c788bed3b",
-        "colors.neutral.200": "e81d8d71732a87793a3b255bdf5340db6f2171ca",
-        "colors.neutral.300": "882d72d36fe40ddb53d44f2e2916c55d96cff3a8",
-        "colors.neutral.500": "aa55079bc1a55ab9d855c76ef57c305c7395fc9b",
-        "colors.neutral.700": "885cc1b416c99664794a294389ad8f6d0ec63dfc",
-        "colors.blue.500": "fe46b33a46715635ff251d533e4103daf901e0c4",
-        "colors.neutral.0": "3bf4672423b777723bf82832c35ce73b82027ab4",
-        "spacing.5": "85a4bf5005926306a7fd059574d512db179f3c68",
-        "spacing.3'5": "2970fbd9a88ccca141d0ba366025b257a70d5e5f",
-        "spacing.3": "9d50d7f0c60ee7b10f03759bd6b7f4436fae825b",
-        "spacing.2'5": "a61b55cb6b2703ab82441f755792fcf7b3308d9d",
+        "colors.white.70%": "2e46fa39e8200f3692c35ef425b085814cf768cc",
+        "colors.white.60%": "730b25fc660f23e47214346d45990aabd431421a",
+        "colors.white.50%": "81c2e996691d0d474c6e1a8ef5839309a42cdf73",
+        "colors.white.40%": "461d84d3350afc907ede8080f876ce9b3c7b7d0a",
+        "colors.white.30%": "443c41e0d4fc5e75ee7a0363d3a1397cafa722ac",
+        "colors.white.20%": "125ed851dcbd80480322cc01c2328381d9840af5",
+        "colors.white.10%": "126391a2c650033c407c25d60e89ad3bee0c9fd5",
         "spacing.2": "d1b653c998028c1fd2ba85762012e4a9f72ba288",
-        "spacing.4": "1932362f82d4ad4bf7132318c3d40ac9fcecd9e0"
+        "spacing.3": "9d50d7f0c60ee7b10f03759bd6b7f4436fae825b",
+        "spacing.4": "1932362f82d4ad4bf7132318c3d40ac9fcecd9e0",
+        "spacing.5": "85a4bf5005926306a7fd059574d512db179f3c68",
+        "spacing.2'5": "a61b55cb6b2703ab82441f755792fcf7b3308d9d",
+        "spacing.3'5": "2970fbd9a88ccca141d0ba366025b257a70d5e5f"
       },
       "$figmaModeId": "1:16",
       "$figmaCollectionId": "VariableCollectionId:1:59"
